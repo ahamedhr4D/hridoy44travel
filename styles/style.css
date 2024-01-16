@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.special{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    
+}
+.logo h1{
+    color: #131318;
+    font-family: Mulish;
+     font-size: 36px;
+     font-weight: 800;
+   
+}
+.nav1{
+    color: #FF5400;;
+}
+.list{
+    width: 50%;
+    display: flex;
+    justify-content: space-between ;
+}
+.list a{
+    text-decoration: none;
+    color: #131318;
+    font-size: 20px;
+}
+.list .btn a{
+    color: #FF5400;
+}
