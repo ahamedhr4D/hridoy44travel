@@ -1,12 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 52px 135px;
+}
 nav{
     display: flex;
     align-items: center;
+    
 }
 .logo{
     display: flex;
     align-items: center;
     width: 50%;
-    margin: 0 auto;
+    
+    
 }
 .special{
     color: #FF5400;
@@ -26,7 +36,7 @@ nav{
     color: #FF5400;;
 }
 .list{
-    width: 50%;
+   width: 50%;
     display: flex;
     justify-content: space-between ;
 }
