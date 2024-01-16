@@ -48,3 +48,6 @@ nav{
 .list .btn a{
     color: #FF5400;
 }
+.icon{
+    display: none;
+}

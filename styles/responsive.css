@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
    header{
-    padding:0 ;
+    padding:0 20px;
     margin: 0;
    }
    
@@ -16,5 +16,10 @@
     .list{
         flex-direction: column;
         display: none;
+    }
+    .icon{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 80%;
     }
 }
