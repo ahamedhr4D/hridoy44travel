@@ -414,6 +414,7 @@ main .popular .content2 {
     font-weight: 400;
 
 }
+
 .coll1 .img10 h1 {
     color: #131318;
     margin-top: 10px;
@@ -422,6 +423,7 @@ main .popular .content2 {
     font-weight: 800;
 
 }
+
 .coll1 .img10 p {
     color: #5A5A5D;
     margin-top: 20px;
@@ -429,4 +431,63 @@ main .popular .content2 {
     font-size: 20px;
     font-weight: 400;
 
+}
+
+.coll2 {
+    width: 50%;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    height: 284px;
+    margin: 20px auto;
+}
+
+.coll2 .img11 {
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.coll2 .img11 h1 {
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.coll2 .img11 p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.foot {
+    background: rgba(19, 19, 24, 0.05);
+
+    height: 500px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+
+    width: 50%;
+
+}
+
+.social img {
+    border: 2px solid red;
+    padding-left: 650px;
+    padding-right: 500px;
+    margin-left: 250px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 20px;
+}
+
+.foot .footer-cont {
+    font-size: 20px;
+    padding-left: 500px;
+    margin-bottom: 50px;
 }
