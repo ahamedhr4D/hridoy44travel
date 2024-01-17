@@ -1,60 +1,73 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     padding: 52px 135px;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
-    
+
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     width: 50%;
-    
-    
+
+
 }
-.special{
+
+.special {
     color: #FF5400;
     font-family: Mulish;
     font-size: 36px;
     font-weight: 800;
-    
+
 }
-.logo h1{
+
+.logo h1 {
     color: #131318;
     font-family: Mulish;
-     font-size: 36px;
-     font-weight: 800;
-   
+    font-size: 36px;
+    font-weight: 800;
+
 }
-.nav1{
-    color: #FF5400;;
+
+.nav1 {
+    color: #FF5400;
+    ;
 }
-.list{
-   width: 50%;
+
+.list {
+    width: 50%;
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
 }
-.list a{
+
+.list a {
     text-decoration: none;
     color: #131318;
     font-size: 20px;
 }
-.list .btn a{
+
+.list .btn a {
     color: #FF5400;
 }
-.icon{
+
+.icon {
     display: none;
 }
-main{
+
+main {
     padding: 135px;
 }
-.hero{
+
+.hero {
     background-image: url(../Images/Group13.png);
     background-size: cover;
     width: 100%;
@@ -63,57 +76,121 @@ main{
     margin-right: auto;
     margin-left: auto;
 }
-.hero1 h1{
+
+.hero1 h1 {
     color: #FFF;
 
-font-family: Mulish;
-font-size: 64px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-text-align: center;
-padding-top: 200px;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    padding-top: 200px;
 }
-.hero1 p{
+
+.hero1 p {
     color: #FFF;
-   margin: 20px;
-   text-align: center;
-   font-family: Mulish;
-   font-size: 30px;
-   font-style: normal;
-   font-weight: 600px;
-   line-height: 26px;
-   padding: 0 247px;
+    margin: 20px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 26px;
+    padding: 0 247px;
 }
-.form{
-    
+
+.form {
+
     background: rgba(255, 255, 255, 0.30);
     margin: 200px 185px;
-    
-    
+
+
 }
-.hero .form .text{
-    padding:0;
-    display:inline-flex;
+
+.hero .form .text {
+    padding: 0;
+    display: inline-flex;
     justify-content: center;
-    margin:8px 250px;
+    margin: 8px 250px;
     font-size: 20px;
     gap: 30px;
     border-radius: 2px;
-    
-    
+
+
 }
- .form .btn-p{
-     background: #FF900E;
-     padding: 20px 25px;
-     font-size:20px;
-     
-     border: 0;
+
+.btn-p {
+    background: #FF900E;
+    padding: 20px 25px;
+    font-size: 20px;
+    border: 0;
     display: flex;
     border-radius: 8px;
     text-align: center
 }
-.form .text{
+
+.form .text {
 
     border-radius: 5px;
+}
+
+main .popular {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.popular h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    
+
+}
+
+.popular .content {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px;
+}
+
+main .popular .content2 {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 25px;
+}
+.popular .content3{
+    color: #5A5A5D;
+
+font-family: Mulish;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin: 20px;
+}
+.Destination{
+    text-align: center;
+    margin-top: 60px;
+}
+.Destination h1{
+    font-size: 60px;
+}
+.Destination p{
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 0 399px;
+    
 }

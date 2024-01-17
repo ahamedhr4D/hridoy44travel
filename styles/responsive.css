@@ -53,4 +53,13 @@
         margin-left: 50px;
         gap: 10px;
     }
+    main .popular {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .img{
+        flex-direction: column;
+        order: 1;
+    }
 }
