@@ -491,3 +491,7 @@ main .popular .content2 {
     padding-left: 500px;
     margin-bottom: 50px;
 }
+.last{
+    text-align: center;
+    margin-top: -250px;
+}
