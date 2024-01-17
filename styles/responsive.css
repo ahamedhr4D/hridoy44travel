@@ -62,4 +62,7 @@
         flex-direction: column;
         order: 1;
     }
+    .imgcollage{
+        flex-direction: column;
+    }
 }
